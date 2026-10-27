@@ -1,0 +1,43 @@
+# Matriz de rotación de capas
+
+**Grupo**: AutoMarketPlus · **Ficha**: _pendiente de anotar_ · **Stack**: React (TanStack Start) + server functions + PostgreSQL (Neon / PGLite)
+
+Capas: **Front** (React) · **API** (backend) · **BD** (integración) · **E2E** (Playwright)
+
+Reglas:
+
+- Cada semana cambias de capa. No repites capa hasta haber pasado por las cuatro.
+- En la columna escribe la capa y, al cerrar la semana, el enlace a tu PR de tests.
+- Quien revisa tu PR debe haber trabajado en otra capa esa semana.
+
+| Integrante (usuario GitHub) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 |
+|---|---|---|---|---|---|---|---|---|---|
+| @AndresXweb | E2E | | | | | | | | |
+| @NicoSogamoso | E2E | | | | | | | | |
+| @FIGUEROA9 | E2E | | | | | | | | |
+
+## Flujo E2E de la semana 1
+
+Recurso sorteado al azar: **vehículos**. Cada integrante prueba un flujo distinto sobre él.
+
+| Integrante | Flujo | Archivo |
+|---|---|---|
+| @FIGUEROA9 | Buscar un vehículo por modelo en el catálogo | `e2e/tests/catalog-search.spec.js` |
+
+Los flujos de @AndresXweb y @NicoSogamoso se entregaron por separado.
+
+## Cobertura semanal
+
+Anota la cobertura real al cerrar cada semana. El umbral de la semana siguiente es el mayor entre el piso del plan y este valor, redondeado hacia abajo.
+
+| Semana | Frontend (%) | Backend (%) | Umbral configurado para la semana siguiente |
+|---|---|---|---|
+| S1 (línea base) | 0 | _anotar_ | _anotar_ |
+
+## Registro de vocero aleatorio
+
+El vocero escribe su respuesta **antes** de que el instructor llegue a la mesa; el instructor la verifica con una pregunta corta y anota el resultado.
+
+| Semana | Vocero | Capa preguntada | Respuesta escrita | Resultado (Alto / Medio / Bajo) |
+|---|---|---|---|---|
+| S1 | | | | |

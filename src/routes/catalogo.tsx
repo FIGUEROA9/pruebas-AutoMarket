@@ -63,13 +63,14 @@ function Catalogo() {
             <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-subtle" />
             <Input
               className="pl-9"
+              aria-label="Buscar vehículos"
               placeholder="Marca, línea o ciudad"
               value={q}
               onChange={(e) => setQ(e.target.value)}
               suppressHydrationWarning
             />
           </div>
-          <Select value={brand} onChange={(e) => setBrand(e.target.value)}>
+          <Select aria-label="Marca" value={brand} onChange={(e) => setBrand(e.target.value)}>
             <option value="">Todas las marcas</option>
             {BRANDS.map((b) => (
               <option key={b} value={b}>
@@ -77,12 +78,12 @@ function Catalogo() {
               </option>
             ))}
           </Select>
-          <Select value={listingType} onChange={(e) => setListingType(e.target.value)}>
+          <Select aria-label="Tipo de anuncio" value={listingType} onChange={(e) => setListingType(e.target.value)}>
             <option value="">Venta y permuta</option>
             <option value="venta">Venta</option>
             <option value="permuta">Permuta</option>
           </Select>
-          <Select value={city} onChange={(e) => setCity(e.target.value)}>
+          <Select aria-label="Ciudad" value={city} onChange={(e) => setCity(e.target.value)}>
             <option value="">Todas las ciudades</option>
             {CITIES.map((c) => (
               <option key={c} value={c}>
@@ -90,7 +91,7 @@ function Catalogo() {
               </option>
             ))}
           </Select>
-          <Select value={bodyType} onChange={(e) => setBodyType(e.target.value)}>
+          <Select aria-label="Carrocería" value={bodyType} onChange={(e) => setBodyType(e.target.value)}>
             <option value="">Carrocería</option>
             <option value="sedan">Sedán</option>
             <option value="suv">SUV</option>
@@ -99,7 +100,7 @@ function Catalogo() {
             <option value="van">Van</option>
             <option value="coupe">Coupé</option>
           </Select>
-          <Select value={fuel} onChange={(e) => setFuel(e.target.value)}>
+          <Select aria-label="Combustible" value={fuel} onChange={(e) => setFuel(e.target.value)}>
             <option value="">Combustible</option>
             <option value="gasolina">Gasolina</option>
             <option value="diesel">Diésel</option>
@@ -109,6 +110,7 @@ function Catalogo() {
           <Input
             type="number"
             min={0}
+            aria-label="Precio mínimo"
             placeholder="Precio min"
             value={minPrice}
             onChange={(e) => setMinPrice(e.target.value)}
@@ -116,6 +118,7 @@ function Catalogo() {
           <Input
             type="number"
             min={0}
+            aria-label="Precio máximo"
             placeholder="Precio max"
             value={maxPrice}
             onChange={(e) => setMaxPrice(e.target.value)}

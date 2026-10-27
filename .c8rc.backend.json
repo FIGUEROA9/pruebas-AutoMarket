@@ -1,0 +1,25 @@
+{
+  "all": true,
+  "src": ["src"],
+  "include": [
+    "src/lib/market.ts",
+    "src/lib/swap.ts",
+    "src/lib/app-data/**",
+    "src/lib/auth/server.ts",
+    "src/lib/auth/*.server.ts",
+    "src/lib/auth/middleware.ts",
+    "src/lib/auth/email-password.ts",
+    "src/lib/auth/providers.ts",
+    "src/lib/auth/gate-session-marker.ts",
+    "src/lib/auth/preview.ts"
+  ],
+  "exclude": ["**/*.test.ts", "src/lib/auth/popup.server.ts"],
+  "extension": [".ts"],
+  "reporter": ["text", "html"],
+  "reports-dir": "coverage/backend",
+  "check-coverage": true,
+  "lines": 0,
+  "branches": 0,
+  "functions": 0,
+  "statements": 0
+}
