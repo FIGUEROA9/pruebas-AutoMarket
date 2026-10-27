@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/login",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "AutoMarket",
+      "hasCanvas": false,
+      "bodyTextLen": 465,
+      "bodyTextHash": "9d59bc951cfd5bf1589d06f5f36832ecde78fedc4784a55f35ddab0d9791f252",
+      "bodyTextPrefix": "AutoMarket Catálogo Contacto Publicar CUENTA Entra a AutoMarket ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "AutoMarket",
+      "hasCanvas": false,
+      "bodyTextLen": 438,
+      "bodyTextHash": "15332c200f966251f4133a97c24a50bb619ea47f74ce43f197267863e33eff42",
+      "bodyTextPrefix": "AutoMarket CUENTA Entra a AutoMarket El primer usuario en regist",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/login.json"
+}

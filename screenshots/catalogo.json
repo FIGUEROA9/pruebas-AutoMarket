@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/catalogo",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "AutoMarket",
+      "hasCanvas": false,
+      "bodyTextLen": 1474,
+      "bodyTextHash": "42c6ca8d086030faa662e89b08f3387223ab2b130cafe40ec70fb416188d0a34",
+      "bodyTextPrefix": "AutoMarket Catálogo Contacto Publicar Entrar INVENTARIO Catálogo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/catalogo.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "AutoMarket",
+      "hasCanvas": false,
+      "bodyTextLen": 1440,
+      "bodyTextHash": "98eef0c55da8bf9a04f4e30568c0d292af46ff93d0e0d28c5b507f1a76feda28",
+      "bodyTextPrefix": "AutoMarket INVENTARIO Catálogo Venta directa y permuta. Los filt",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/catalogo-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/catalogo.json"
+}
