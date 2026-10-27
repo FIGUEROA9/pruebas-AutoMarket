@@ -1,0 +1,26 @@
+{
+  "all": true,
+  "src": ["src"],
+  "include": [
+    "src/routes/**",
+    "src/components/**",
+    "src/lib/format.ts",
+    "src/lib/images.ts",
+    "src/lib/image-file.ts",
+    "src/lib/utils.ts",
+    "src/lib/error-component.tsx",
+    "src/lib/auth/gates.tsx",
+    "src/lib/auth/provider.tsx",
+    "src/lib/auth/use-current-user.ts",
+    "src/lib/auth/client.ts"
+  ],
+  "exclude": ["**/*.test.ts", "src/routeTree.gen.ts"],
+  "extension": [".ts", ".tsx"],
+  "reporter": ["text", "html"],
+  "reports-dir": "coverage/frontend",
+  "check-coverage": true,
+  "lines": 0,
+  "branches": 0,
+  "functions": 0,
+  "statements": 0
+}
